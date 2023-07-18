@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PositionalEncoderDecoder", "Basic Positional_EncoderDecoder\PositionalEncoderDecoder.vbproj", "{55CD1F24-C39A-48F0-AF01-806AB7108157}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_PositionalEncoderDecoder2023", "Basic Positional_EncoderDecoder\Basic_PositionalEncoderDecoder2023.vbproj", "{55CD1F24-C39A-48F0-AF01-806AB7108157}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicVBCompiler2023", "Basic VB Compiler2023\BasicVBCompiler2023.vbproj", "{4C92ABF0-BD68-49DB-8D97-BFBFBF99D4D6}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_VBCompiler2023", "Basic VB Compiler2023\Basic_VBCompiler2023.vbproj", "{4C92ABF0-BD68-49DB-8D97-BFBFBF99D4D6}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicCorpus2023", "Basic_Corpus\BasicCorpus2023.vbproj", "{878E94DE-225F-4B5F-A53B-5654CAAF09DB}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_Corpus2023", "Basic_Corpus\Basic_Corpus2023.vbproj", "{878E94DE-225F-4B5F-A53B-5654CAAF09DB}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_Tokenizer", "Basic_Tokenizer\Basic_Tokenizer.vbproj", "{0E099E08-C70D-4D96-9142-85BA62A4E5CE}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_Tokenizer2023", "Basic_Tokenizer\Basic_Tokenizer2023.vbproj", "{0E099E08-C70D-4D96-9142-85BA62A4E5CE}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicNeuralNetWork2023", "BasicNeuralNetWork2023\BasicNeuralNetWork2023.vbproj", "{4584F681-CE22-47B6-95B0-00B578B3E03A}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_NeuralNetWork2023", "BasicNeuralNetWork2023\Basic_NeuralNetWork2023.vbproj", "{4584F681-CE22-47B6-95B0-00B578B3E03A}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicWordEmbeddings2023", "BasicWordEmbeddings2023\BasicWordEmbeddings2023.vbproj", "{23E90561-FBA5-4233-802E-88F4A920AFD6}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_WordEmbeddings2023", "BasicWordEmbeddings2023\Basic_WordEmbeddings2023.vbproj", "{23E90561-FBA5-4233-802E-88F4A920AFD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
