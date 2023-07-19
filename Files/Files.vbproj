@@ -129,6 +129,10 @@
       <Project>{23e90561-fba5-4233-802e-88f4a920afd6}</Project>
       <Name>Basic_WordEmbeddings2023</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Basic_AI_VisualReco2023\Basic_AI_VisualReco2023.vbproj">
+      <Project>{633b728e-6934-4084-8a1d-6d56174977cc}</Project>
+      <Name>Basic_AI_VisualReco2023</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Basic_ConsoleChatBot2023\Basic_ConsoleChatBot2023.vbproj">
       <Project>{7fa2a3bb-77a8-427a-9990-13ead03008dd}</Project>
       <Name>Basic_ConsoleChatBot2023</Name>
