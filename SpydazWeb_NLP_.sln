@@ -15,11 +15,15 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_NeuralNetWork2023", "
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_WordEmbeddings2023", "BasicWordEmbeddings2023\Basic_WordEmbeddings2023.vbproj", "{23E90561-FBA5-4233-802E-88F4A920AFD6}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicConsoleChatBot2023", "Basic_ConsoleChatBot2023\BasicConsoleChatBot2023.vbproj", "{7FA2A3BB-77A8-427A-9990-13EAD03008DD}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_ConsoleChatBot2023", "Basic_ConsoleChatBot2023\Basic_ConsoleChatBot2023.vbproj", "{7FA2A3BB-77A8-427A-9990-13EAD03008DD}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_UserControls2023", "Basic_UserControls2023\Basic_UserControls2023.vbproj", "{9BA90511-DD5E-4E4D-BA2B-E7557D339275}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicVB_Repl2023", "BasicVB_IDE_2023\BasicVB_Repl2023.vbproj", "{D15B9D52-8BBE-46AA-BE0D-8774599C85F9}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_VBRepl2023", "BasicVB_IDE_2023\Basic_VBRepl2023.vbproj", "{D15B9D52-8BBE-46AA-BE0D-8774599C85F9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_NLP_IDE2023", "Basic_NLP_IDE2023\Basic_NLP_IDE2023.vbproj", "{E313AFA1-4E08-4694-8507-9892622C26C2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basic_CommonExtensions2023", "BasicCommonExtensions2023\Basic_CommonExtensions2023.vbproj", "{0463B469-4E78-4134-9362-F4EF86E22016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{D15B9D52-8BBE-46AA-BE0D-8774599C85F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D15B9D52-8BBE-46AA-BE0D-8774599C85F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D15B9D52-8BBE-46AA-BE0D-8774599C85F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E313AFA1-4E08-4694-8507-9892622C26C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E313AFA1-4E08-4694-8507-9892622C26C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E313AFA1-4E08-4694-8507-9892622C26C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E313AFA1-4E08-4694-8507-9892622C26C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0463B469-4E78-4134-9362-F4EF86E22016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0463B469-4E78-4134-9362-F4EF86E22016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0463B469-4E78-4134-9362-F4EF86E22016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0463B469-4E78-4134-9362-F4EF86E22016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
