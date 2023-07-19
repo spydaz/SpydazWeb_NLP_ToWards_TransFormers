@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E286AE64-12F2-4EF9-A3D9-B29C6FBBF007}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Files</RootNamespace>
+    <AssemblyName>Files</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Files.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Files.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Basic Positional_EncoderDecoder\Basic_PositionalEncoderDecoder2023.vbproj">
+      <Project>{55cd1f24-c39a-48f0-af01-806ab7108157}</Project>
+      <Name>Basic_PositionalEncoderDecoder2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic VB Compiler2023\Basic_VBCompiler2023.vbproj">
+      <Project>{4c92abf0-bd68-49db-8d97-bfbfbf99d4d6}</Project>
+      <Name>Basic_VBCompiler2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BasicCommonExtensions2023\Basic_CommonExtensions2023.vbproj">
+      <Project>{0463b469-4e78-4134-9362-f4ef86e22016}</Project>
+      <Name>Basic_CommonExtensions2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BasicLanguageModelling2023\Basic_LanguageModelling2023.vbproj">
+      <Project>{fcff1dfc-ab21-45fa-b700-9afbdc5b11a8}</Project>
+      <Name>Basic_LanguageModelling2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BasicNeuralNetWork2023\Basic_NeuralNetWork2023.vbproj">
+      <Project>{4584f681-ce22-47b6-95b0-00b578b3e03a}</Project>
+      <Name>Basic_NeuralNetWork2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BasicVB_IDE_2023\Basic_VBRepl2023.vbproj">
+      <Project>{d15b9d52-8bbe-46aa-be0d-8774599c85f9}</Project>
+      <Name>Basic_VBRepl2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BasicWordEmbeddings2023\Basic_WordEmbeddings2023.vbproj">
+      <Project>{23e90561-fba5-4233-802e-88f4a920afd6}</Project>
+      <Name>Basic_WordEmbeddings2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic_ConsoleChatBot2023\Basic_ConsoleChatBot2023.vbproj">
+      <Project>{7fa2a3bb-77a8-427a-9990-13ead03008dd}</Project>
+      <Name>Basic_ConsoleChatBot2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic_Corpus\Basic_Corpus2023.vbproj">
+      <Project>{878e94de-225f-4b5f-a53b-5654caaf09db}</Project>
+      <Name>Basic_Corpus2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic_NLP_IDE2023\Basic_NLP_IDE2023.vbproj">
+      <Project>{e313afa1-4e08-4694-8507-9892622c26c2}</Project>
+      <Name>Basic_NLP_IDE2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic_Tokenizer\Basic_Tokenizer2023.vbproj">
+      <Project>{0e099e08-c70d-4d96-9142-85ba62a4e5ce}</Project>
+      <Name>Basic_Tokenizer2023</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic_UserControls2023\Basic_UserControls2023.vbproj">
+      <Project>{9ba90511-dd5e-4e4d-ba2b-e7557d339275}</Project>
+      <Name>Basic_UserControls2023</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
